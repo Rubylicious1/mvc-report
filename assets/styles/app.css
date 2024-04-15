@@ -1,3 +1,14 @@
 body {
     background-color: skyblue;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+header {
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    border-bottom: 4px double #ccc;
 }
