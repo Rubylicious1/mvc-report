@@ -1,14 +1,73 @@
 body {
-    background-color: skyblue;
+    background: url('../images/ThefirstTree.png');
+    background-size: cover;
+}
+
+main {
     margin: 0 auto;
     max-width: 400px;
 }
 
 header {
-    height: 100px;
+    height: 200px;
     background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
     border-bottom: 4px double #ccc;
+}
+
+.figure img {
+    max-width: 100%;
+}
+
+nav {
+    background-color: #10183f;
+    border-top: 4px solid #4F5B93;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    color: #464040;
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.514);
+}
+
+li a:hover {
+    color: #EEE;
+    background-color: #4F5B93;
+}
+
+.two-col-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+.aside {
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 24px;
 }
