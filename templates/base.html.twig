@@ -32,10 +32,26 @@
         {% block body %}{% endblock %}
         </main>
 
-        <footer>
-            <p><a href="https://web.dev/measure/">Mät sidans prestanda</a></p>
-            <p><a href="https://caniuse.com/">CanIUse</a></p>
-            <p><a href="https://codepen.io/">CodePen</a></p>
+
+        <footer class="site-footer" style="background-image: url({{ asset('/img/footer.png') }})">
+            <div class="row">
+                <div class="col3 box">
+                    <p><a href="http://validator.w3.org/check/referer">HTML </a></p>
+                    <p><a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a><p>
+                    <p><a href="https://validator.w3.org/checklink">Link checker</a></p>
+                </div>
+                <div class="col3 box">
+                    <p><a href="https://web.dev/measure/">Mät sidans prestanda</a></p>
+                    <p><a href="https://caniuse.com/">CanIUse</a></p>
+                    <p><a href="https://codepen.io/">CodePen</a></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col1 final">
+                    <p>Denna sidan är Copyright &copy; av mig.</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
