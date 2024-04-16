@@ -1,6 +1,5 @@
 body {
-    background: url('../images/ThefirstTree.png');
-    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.588);
 }
 
 main {
@@ -119,7 +118,7 @@ footer a {
 
 .magic {
     color: rgb(10, 85, 60);
-    background: url("../images/hacker.jpg");
+    background: url("../images/ThefirstTree.png");
     background-size: cover;
 }
 
