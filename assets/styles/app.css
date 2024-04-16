@@ -6,6 +6,7 @@ body {
 main {
     margin: 0 auto;
     max-width: 600px;
+    min-height: 600px;
 }
 
 header {
@@ -113,4 +114,34 @@ footer a {
 
 .final {
     text-align: right;
+}
+
+
+.magic {
+    color: rgb(10, 85, 60);
+    background: url("../images/hacker.jpg");
+    background-size: cover;
+}
+
+.magic h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#8a99f0, #e70303);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.maginumb {
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/13/14/15/fantasy-2847724_1280.jpg");
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px;
+    font-size: 120px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+                    helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
 }
