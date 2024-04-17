@@ -1,5 +1,6 @@
 body {
-    background-color: #eee;
+    background: url('../images/ThefirstTree.png');
+    background-size: cover;
 }
 
 main {
@@ -8,7 +9,7 @@ main {
     min-height: 600px;
 }
 
-header.site-header {
+header {
     height: 200px;
     background-repeat: no-repeat;
     position: relative;
@@ -124,14 +125,23 @@ footer a {
 
 
 .magic {
+    font-family: fantasy;
     color: rgb(10, 85, 60);
+    background: linear-gradient(rgba(2, 61, 2, 0.507), black);
+    height: 700px;
 }
 
 .magic h1 {
     font-size: 72px;
-    background: -webkit-linear-gradient(#8a99f0, #e70303);
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/22/16/46/ai-generated-8464029_1280.png');
+    background-repeat: repeat;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.lucky {
+    background-size: cover;
+    height: 400px;
 }
 
 .maginumb {

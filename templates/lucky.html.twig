@@ -6,9 +6,8 @@
 <div class="magic">
     <h1>Magic number</h1>
     <p>Welcome to my awesome magical homepage.</p>
-    <p class="maginumb">{{ number }}</p>
-        <a href="{{ asset('img/hacker.jpg') }}">
-        <img src="{{ asset('img/hacker.jpg') }}" alt="hacker">
-        </a>
+    <div class="lucky" style="background-image: url({{ asset('img/hacker.jpg') }})">
+        <p class="maginumb">{{ number }}</p>
+    </div>
 </div>
 {% endblock %}
