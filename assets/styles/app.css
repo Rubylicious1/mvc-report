@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(255, 255, 255, 0.588);
+    background-color: #eee;
 }
 
 main {
@@ -8,12 +8,19 @@ main {
     min-height: 600px;
 }
 
-header {
+header.site-header {
     height: 200px;
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
     background-size: cover;
+}
+
+.site-title {
+    font-style: italic;
+    font-size: 30px;
+    color:#ad9f9f62;
+    padding-left: 2em;
 }
 
 h1 {
@@ -118,8 +125,6 @@ footer a {
 
 .magic {
     color: rgb(10, 85, 60);
-    background: url("../images/ThefirstTree.png");
-    background-size: cover;
 }
 
 .magic h1 {
@@ -134,7 +139,7 @@ footer a {
     background-repeat: repeat;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 200px;
+    margin-top: 100px;
     font-size: 120px;
     text-align: center;
     font-weight: bold;
